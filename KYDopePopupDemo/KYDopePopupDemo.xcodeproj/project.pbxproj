@@ -14,6 +14,8 @@
 		5F6B64EE1B63F7FF00E1D6EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B64ED1B63F7FF00E1D6EC /* Images.xcassets */; };
 		5F6B64F11B63F7FF00E1D6EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B64EF1B63F7FF00E1D6EC /* LaunchScreen.xib */; };
 		5F6B64FD1B63F7FF00E1D6EC /* KYDopePopupDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B64FC1B63F7FF00E1D6EC /* KYDopePopupDemoTests.m */; };
+		5F6B65081B63FA7200E1D6EC /* KYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B65071B63FA7200E1D6EC /* KYAlertViewController.m */; };
+		5F6B650C1B63FAD200E1D6EC /* PopupTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B650B1B63FAD200E1D6EC /* PopupTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		5F6B64F61B63F7FF00E1D6EC /* KYDopePopupDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYDopePopupDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6B64FB1B63F7FF00E1D6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F6B64FC1B63F7FF00E1D6EC /* KYDopePopupDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYDopePopupDemoTests.m; sourceTree = "<group>"; };
+		5F6B65061B63FA7200E1D6EC /* KYAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYAlertViewController.h; path = Classes/KYAlertViewController.h; sourceTree = SOURCE_ROOT; };
+		5F6B65071B63FA7200E1D6EC /* KYAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYAlertViewController.m; path = Classes/KYAlertViewController.m; sourceTree = SOURCE_ROOT; };
+		5F6B650A1B63FAD200E1D6EC /* PopupTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopupTransition.h; path = Classes/PopupTransition.h; sourceTree = SOURCE_ROOT; };
+		5F6B650B1B63FAD200E1D6EC /* PopupTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopupTransition.m; path = Classes/PopupTransition.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		5F6B64DF1B63F7FF00E1D6EC /* KYDopePopupDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5F6B65091B63FA9100E1D6EC /* Classes */,
 				5F6B64E41B63F7FF00E1D6EC /* AppDelegate.h */,
 				5F6B64E51B63F7FF00E1D6EC /* AppDelegate.m */,
 				5F6B64E71B63F7FF00E1D6EC /* ViewController.h */,
@@ -117,6 +124,17 @@
 				5F6B64FB1B63F7FF00E1D6EC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F6B65091B63FA9100E1D6EC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B65061B63FA7200E1D6EC /* KYAlertViewController.h */,
+				5F6B65071B63FA7200E1D6EC /* KYAlertViewController.m */,
+				5F6B650A1B63FAD200E1D6EC /* PopupTransition.h */,
+				5F6B650B1B63FAD200E1D6EC /* PopupTransition.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6B64E91B63F7FF00E1D6EC /* ViewController.m in Sources */,
+				5F6B650C1B63FAD200E1D6EC /* PopupTransition.m in Sources */,
+				5F6B65081B63FA7200E1D6EC /* KYAlertViewController.m in Sources */,
 				5F6B64E61B63F7FF00E1D6EC /* AppDelegate.m in Sources */,
 				5F6B64E31B63F7FF00E1D6EC /* main.m in Sources */,
 			);
