@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6B64E31B63F7FF00E1D6EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B64E21B63F7FF00E1D6EC /* main.m */; };
+		5F6B64E61B63F7FF00E1D6EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B64E51B63F7FF00E1D6EC /* AppDelegate.m */; };
+		5F6B64E91B63F7FF00E1D6EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B64E81B63F7FF00E1D6EC /* ViewController.m */; };
+		5F6B64EC1B63F7FF00E1D6EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B64EA1B63F7FF00E1D6EC /* Main.storyboard */; };
+		5F6B64EE1B63F7FF00E1D6EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B64ED1B63F7FF00E1D6EC /* Images.xcassets */; };
+		5F6B64F11B63F7FF00E1D6EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B64EF1B63F7FF00E1D6EC /* LaunchScreen.xib */; };
+		5F6B64FD1B63F7FF00E1D6EC /* KYDopePopupDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B64FC1B63F7FF00E1D6EC /* KYDopePopupDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F6B64F71B63F7FF00E1D6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6B64D51B63F7FF00E1D6EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6B64DC1B63F7FF00E1D6EC;
+			remoteInfo = KYDopePopupDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F6B64DD1B63F7FF00E1D6EC /* KYDopePopupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYDopePopupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6B64E11B63F7FF00E1D6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6B64E21B63F7FF00E1D6EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F6B64E41B63F7FF00E1D6EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F6B64E51B63F7FF00E1D6EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F6B64E71B63F7FF00E1D6EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F6B64E81B63F7FF00E1D6EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F6B64EB1B63F7FF00E1D6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F6B64ED1B63F7FF00E1D6EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5F6B64F01B63F7FF00E1D6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5F6B64F61B63F7FF00E1D6EC /* KYDopePopupDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYDopePopupDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6B64FB1B63F7FF00E1D6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6B64FC1B63F7FF00E1D6EC /* KYDopePopupDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYDopePopupDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F6B64DA1B63F7FF00E1D6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6B64F31B63F7FF00E1D6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6B64D41B63F7FF00E1D6EC = {
+			isa = PBXGroup;
+			children = (
+				5F6B64DF1B63F7FF00E1D6EC /* KYDopePopupDemo */,
+				5F6B64F91B63F7FF00E1D6EC /* KYDopePopupDemoTests */,
+				5F6B64DE1B63F7FF00E1D6EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6B64DE1B63F7FF00E1D6EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B64DD1B63F7FF00E1D6EC /* KYDopePopupDemo.app */,
+				5F6B64F61B63F7FF00E1D6EC /* KYDopePopupDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F6B64DF1B63F7FF00E1D6EC /* KYDopePopupDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B64E41B63F7FF00E1D6EC /* AppDelegate.h */,
+				5F6B64E51B63F7FF00E1D6EC /* AppDelegate.m */,
+				5F6B64E71B63F7FF00E1D6EC /* ViewController.h */,
+				5F6B64E81B63F7FF00E1D6EC /* ViewController.m */,
+				5F6B64EA1B63F7FF00E1D6EC /* Main.storyboard */,
+				5F6B64ED1B63F7FF00E1D6EC /* Images.xcassets */,
+				5F6B64EF1B63F7FF00E1D6EC /* LaunchScreen.xib */,
+				5F6B64E01B63F7FF00E1D6EC /* Supporting Files */,
+			);
+			path = KYDopePopupDemo;
+			sourceTree = "<group>";
+		};
+		5F6B64E01B63F7FF00E1D6EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B64E11B63F7FF00E1D6EC /* Info.plist */,
+				5F6B64E21B63F7FF00E1D6EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F6B64F91B63F7FF00E1D6EC /* KYDopePopupDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B64FC1B63F7FF00E1D6EC /* KYDopePopupDemoTests.m */,
+				5F6B64FA1B63F7FF00E1D6EC /* Supporting Files */,
+			);
+			path = KYDopePopupDemoTests;
+			sourceTree = "<group>";
+		};
+		5F6B64FA1B63F7FF00E1D6EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B64FB1B63F7FF00E1D6EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F6B64DC1B63F7FF00E1D6EC /* KYDopePopupDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6B65001B63F7FF00E1D6EC /* Build configuration list for PBXNativeTarget "KYDopePopupDemo" */;
+			buildPhases = (
+				5F6B64D91B63F7FF00E1D6EC /* Sources */,
+				5F6B64DA1B63F7FF00E1D6EC /* Frameworks */,
+				5F6B64DB1B63F7FF00E1D6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYDopePopupDemo;
+			productName = KYDopePopupDemo;
+			productReference = 5F6B64DD1B63F7FF00E1D6EC /* KYDopePopupDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F6B64F51B63F7FF00E1D6EC /* KYDopePopupDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6B65031B63F7FF00E1D6EC /* Build configuration list for PBXNativeTarget "KYDopePopupDemoTests" */;
+			buildPhases = (
+				5F6B64F21B63F7FF00E1D6EC /* Sources */,
+				5F6B64F31B63F7FF00E1D6EC /* Frameworks */,
+				5F6B64F41B63F7FF00E1D6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F6B64F81B63F7FF00E1D6EC /* PBXTargetDependency */,
+			);
+			name = KYDopePopupDemoTests;
+			productName = KYDopePopupDemoTests;
+			productReference = 5F6B64F61B63F7FF00E1D6EC /* KYDopePopupDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6B64D51B63F7FF00E1D6EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Kitten Yang";
+				TargetAttributes = {
+					5F6B64DC1B63F7FF00E1D6EC = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					5F6B64F51B63F7FF00E1D6EC = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 5F6B64DC1B63F7FF00E1D6EC;
+					};
+				};
+			};
+			buildConfigurationList = 5F6B64D81B63F7FF00E1D6EC /* Build configuration list for PBXProject "KYDopePopupDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F6B64D41B63F7FF00E1D6EC;
+			productRefGroup = 5F6B64DE1B63F7FF00E1D6EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6B64DC1B63F7FF00E1D6EC /* KYDopePopupDemo */,
+				5F6B64F51B63F7FF00E1D6EC /* KYDopePopupDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F6B64DB1B63F7FF00E1D6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6B64EC1B63F7FF00E1D6EC /* Main.storyboard in Resources */,
+				5F6B64F11B63F7FF00E1D6EC /* LaunchScreen.xib in Resources */,
+				5F6B64EE1B63F7FF00E1D6EC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6B64F41B63F7FF00E1D6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6B64D91B63F7FF00E1D6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6B64E91B63F7FF00E1D6EC /* ViewController.m in Sources */,
+				5F6B64E61B63F7FF00E1D6EC /* AppDelegate.m in Sources */,
+				5F6B64E31B63F7FF00E1D6EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6B64F21B63F7FF00E1D6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6B64FD1B63F7FF00E1D6EC /* KYDopePopupDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F6B64F81B63F7FF00E1D6EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6B64DC1B63F7FF00E1D6EC /* KYDopePopupDemo */;
+			targetProxy = 5F6B64F71B63F7FF00E1D6EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F6B64EA1B63F7FF00E1D6EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6B64EB1B63F7FF00E1D6EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F6B64EF1B63F7FF00E1D6EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6B64F01B63F7FF00E1D6EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F6B64FE1B63F7FF00E1D6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F6B64FF1B63F7FF00E1D6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F6B65011B63F7FF00E1D6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KYDopePopupDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F6B65021B63F7FF00E1D6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KYDopePopupDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F6B65041B63F7FF00E1D6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KYDopePopupDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYDopePopupDemo.app/KYDopePopupDemo";
+			};
+			name = Debug;
+		};
+		5F6B65051B63F7FF00E1D6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KYDopePopupDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYDopePopupDemo.app/KYDopePopupDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F6B64D81B63F7FF00E1D6EC /* Build configuration list for PBXProject "KYDopePopupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6B64FE1B63F7FF00E1D6EC /* Debug */,
+				5F6B64FF1B63F7FF00E1D6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6B65001B63F7FF00E1D6EC /* Build configuration list for PBXNativeTarget "KYDopePopupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6B65011B63F7FF00E1D6EC /* Debug */,
+				5F6B65021B63F7FF00E1D6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F6B65031B63F7FF00E1D6EC /* Build configuration list for PBXNativeTarget "KYDopePopupDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6B65041B63F7FF00E1D6EC /* Debug */,
+				5F6B65051B63F7FF00E1D6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6B64D51B63F7FF00E1D6EC /* Project object */;
+}
