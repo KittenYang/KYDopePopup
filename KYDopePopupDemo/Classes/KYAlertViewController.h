@@ -10,6 +10,11 @@
 
 @interface KYAlertViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *TitleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *MessageLabel;
+@property (weak, nonatomic) IBOutlet UIButton *LeftButton;
+@property (weak, nonatomic) IBOutlet UIButton *RightButton;
+
 @property(nonatomic,strong)NSString *popupTitle;
 
 @property(nonatomic,strong)NSString *popupMessage;

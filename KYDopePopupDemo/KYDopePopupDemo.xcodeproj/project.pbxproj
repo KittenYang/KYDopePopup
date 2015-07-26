@@ -16,6 +16,8 @@
 		5F6B64FD1B63F7FF00E1D6EC /* KYDopePopupDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B64FC1B63F7FF00E1D6EC /* KYDopePopupDemoTests.m */; };
 		5F6B65081B63FA7200E1D6EC /* KYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B65071B63FA7200E1D6EC /* KYAlertViewController.m */; };
 		5F6B650C1B63FAD200E1D6EC /* PopupTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B650B1B63FAD200E1D6EC /* PopupTransition.m */; };
+		5F6B650F1B64E56C00E1D6EC /* KYSpringLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B650E1B64E56C00E1D6EC /* KYSpringLayerAnimation.m */; };
+		5F6B65161B65550E00E1D6EC /* KYAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B65151B65550E00E1D6EC /* KYAlertViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,9 @@
 		5F6B65071B63FA7200E1D6EC /* KYAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYAlertViewController.m; path = Classes/KYAlertViewController.m; sourceTree = SOURCE_ROOT; };
 		5F6B650A1B63FAD200E1D6EC /* PopupTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopupTransition.h; path = Classes/PopupTransition.h; sourceTree = SOURCE_ROOT; };
 		5F6B650B1B63FAD200E1D6EC /* PopupTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopupTransition.m; path = Classes/PopupTransition.m; sourceTree = SOURCE_ROOT; };
+		5F6B650D1B64E56C00E1D6EC /* KYSpringLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYSpringLayerAnimation.h; path = Classes/KYLayerAnimation/KYSpringLayerAnimation.h; sourceTree = SOURCE_ROOT; };
+		5F6B650E1B64E56C00E1D6EC /* KYSpringLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYSpringLayerAnimation.m; path = Classes/KYLayerAnimation/KYSpringLayerAnimation.m; sourceTree = SOURCE_ROOT; };
+		5F6B65151B65550E00E1D6EC /* KYAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KYAlertViewController.xib; path = Classes/KYAlertViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,12 +134,23 @@
 		5F6B65091B63FA9100E1D6EC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5F6B65101B64E57500E1D6EC /* KYLayerAnimation */,
 				5F6B65061B63FA7200E1D6EC /* KYAlertViewController.h */,
 				5F6B65071B63FA7200E1D6EC /* KYAlertViewController.m */,
+				5F6B65151B65550E00E1D6EC /* KYAlertViewController.xib */,
 				5F6B650A1B63FAD200E1D6EC /* PopupTransition.h */,
 				5F6B650B1B63FAD200E1D6EC /* PopupTransition.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		5F6B65101B64E57500E1D6EC /* KYLayerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B650D1B64E56C00E1D6EC /* KYSpringLayerAnimation.h */,
+				5F6B650E1B64E56C00E1D6EC /* KYSpringLayerAnimation.m */,
+			);
+			name = KYLayerAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6B64EC1B63F7FF00E1D6EC /* Main.storyboard in Resources */,
+				5F6B65161B65550E00E1D6EC /* KYAlertViewController.xib in Resources */,
 				5F6B64F11B63F7FF00E1D6EC /* LaunchScreen.xib in Resources */,
 				5F6B64EE1B63F7FF00E1D6EC /* Images.xcassets in Resources */,
 			);
@@ -238,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6B64E91B63F7FF00E1D6EC /* ViewController.m in Sources */,
+				5F6B650F1B64E56C00E1D6EC /* KYSpringLayerAnimation.m in Sources */,
 				5F6B650C1B63FAD200E1D6EC /* PopupTransition.m in Sources */,
 				5F6B65081B63FA7200E1D6EC /* KYAlertViewController.m in Sources */,
 				5F6B64E61B63F7FF00E1D6EC /* AppDelegate.m in Sources */,

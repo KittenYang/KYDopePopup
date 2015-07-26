@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2O-kl-B7d">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <rect key="frame" x="277" y="550" width="46" height="30"/>
                                 <state key="normal" title="Popup">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -28,9 +28,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="X2O-kl-B7d" secondAttribute="bottom" constant="20" id="8zT-T4-rQP"/>
+                            <constraint firstAttribute="centerY" secondItem="X2O-kl-B7d" secondAttribute="centerY" id="IqS-Oz-dcm"/>
+                            <constraint firstAttribute="centerX" secondItem="X2O-kl-B7d" secondAttribute="centerX" id="Iry-ro-76t"/>
                             <constraint firstAttribute="centerY" secondItem="X2O-kl-B7d" secondAttribute="centerY" id="X5K-Xa-pHf"/>
                             <constraint firstAttribute="centerX" secondItem="X2O-kl-B7d" secondAttribute="centerX" id="z0g-Tv-AiR"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="IqS-Oz-dcm"/>
+                                <exclude reference="X5K-Xa-pHf"/>
+                                <exclude reference="z0g-Tv-AiR"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
