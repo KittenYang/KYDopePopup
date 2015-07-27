@@ -101,7 +101,7 @@
 //        CGFloat value_for_scale = x <=0.2? 0:[fromValue floatValue] + diff * (-1/0.64*(x-0.2)*(x-1.8));
         
         t = CATransform3DScale(t, 1+value_for_scale*0.2, 1+value_for_scale*0.2, 0);
-//        t = CATransform3DRotate(t,value_for_rotate*(M_PI/5), 1, 0, 0);
+        t = CATransform3DRotate(t,value_for_rotate*(M_PI/5), 1, 0, 0);
         
         values[frame] = [NSValue valueWithCATransform3D:t];
     }

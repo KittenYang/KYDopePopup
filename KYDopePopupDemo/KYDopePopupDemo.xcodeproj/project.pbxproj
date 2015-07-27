@@ -14,10 +14,9 @@
 		5F6B64EE1B63F7FF00E1D6EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B64ED1B63F7FF00E1D6EC /* Images.xcassets */; };
 		5F6B64F11B63F7FF00E1D6EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B64EF1B63F7FF00E1D6EC /* LaunchScreen.xib */; };
 		5F6B64FD1B63F7FF00E1D6EC /* KYDopePopupDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B64FC1B63F7FF00E1D6EC /* KYDopePopupDemoTests.m */; };
-		5F6B65081B63FA7200E1D6EC /* KYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B65071B63FA7200E1D6EC /* KYAlertViewController.m */; };
-		5F6B650C1B63FAD200E1D6EC /* PopupTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B650B1B63FAD200E1D6EC /* PopupTransition.m */; };
 		5F6B650F1B64E56C00E1D6EC /* KYSpringLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B650E1B64E56C00E1D6EC /* KYSpringLayerAnimation.m */; };
-		5F6B65161B65550E00E1D6EC /* KYAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B65151B65550E00E1D6EC /* KYAlertViewController.xib */; };
+		5F6B651B1B667D4500E1D6EC /* KYDopePopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B651A1B667D4500E1D6EC /* KYDopePopup.m */; };
+		5F6B651E1B669DE600E1D6EC /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B651D1B669DE600E1D6EC /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +43,12 @@
 		5F6B64F61B63F7FF00E1D6EC /* KYDopePopupDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYDopePopupDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6B64FB1B63F7FF00E1D6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F6B64FC1B63F7FF00E1D6EC /* KYDopePopupDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYDopePopupDemoTests.m; sourceTree = "<group>"; };
-		5F6B65061B63FA7200E1D6EC /* KYAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYAlertViewController.h; path = Classes/KYAlertViewController.h; sourceTree = SOURCE_ROOT; };
-		5F6B65071B63FA7200E1D6EC /* KYAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYAlertViewController.m; path = Classes/KYAlertViewController.m; sourceTree = SOURCE_ROOT; };
-		5F6B650A1B63FAD200E1D6EC /* PopupTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopupTransition.h; path = Classes/PopupTransition.h; sourceTree = SOURCE_ROOT; };
-		5F6B650B1B63FAD200E1D6EC /* PopupTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopupTransition.m; path = Classes/PopupTransition.m; sourceTree = SOURCE_ROOT; };
 		5F6B650D1B64E56C00E1D6EC /* KYSpringLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYSpringLayerAnimation.h; path = Classes/KYLayerAnimation/KYSpringLayerAnimation.h; sourceTree = SOURCE_ROOT; };
 		5F6B650E1B64E56C00E1D6EC /* KYSpringLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYSpringLayerAnimation.m; path = Classes/KYLayerAnimation/KYSpringLayerAnimation.m; sourceTree = SOURCE_ROOT; };
-		5F6B65151B65550E00E1D6EC /* KYAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KYAlertViewController.xib; path = Classes/KYAlertViewController.xib; sourceTree = SOURCE_ROOT; };
+		5F6B65191B667D4500E1D6EC /* KYDopePopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYDopePopup.h; path = Classes/KYDopePopup.h; sourceTree = SOURCE_ROOT; };
+		5F6B651A1B667D4500E1D6EC /* KYDopePopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYDopePopup.m; path = Classes/KYDopePopup.m; sourceTree = SOURCE_ROOT; };
+		5F6B651C1B669DE600E1D6EC /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Color.h"; path = "Classes/UIImage+Color.h"; sourceTree = SOURCE_ROOT; };
+		5F6B651D1B669DE600E1D6EC /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Color.m"; path = "Classes/UIImage+Color.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,11 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				5F6B65101B64E57500E1D6EC /* KYLayerAnimation */,
-				5F6B65061B63FA7200E1D6EC /* KYAlertViewController.h */,
-				5F6B65071B63FA7200E1D6EC /* KYAlertViewController.m */,
-				5F6B65151B65550E00E1D6EC /* KYAlertViewController.xib */,
-				5F6B650A1B63FAD200E1D6EC /* PopupTransition.h */,
-				5F6B650B1B63FAD200E1D6EC /* PopupTransition.m */,
+				5F6B65191B667D4500E1D6EC /* KYDopePopup.h */,
+				5F6B651A1B667D4500E1D6EC /* KYDopePopup.m */,
+				5F6B651C1B669DE600E1D6EC /* UIImage+Color.h */,
+				5F6B651D1B669DE600E1D6EC /* UIImage+Color.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -234,7 +231,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6B64EC1B63F7FF00E1D6EC /* Main.storyboard in Resources */,
-				5F6B65161B65550E00E1D6EC /* KYAlertViewController.xib in Resources */,
 				5F6B64F11B63F7FF00E1D6EC /* LaunchScreen.xib in Resources */,
 				5F6B64EE1B63F7FF00E1D6EC /* Images.xcassets in Resources */,
 			);
@@ -255,9 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6B64E91B63F7FF00E1D6EC /* ViewController.m in Sources */,
+				5F6B651B1B667D4500E1D6EC /* KYDopePopup.m in Sources */,
 				5F6B650F1B64E56C00E1D6EC /* KYSpringLayerAnimation.m in Sources */,
-				5F6B650C1B63FAD200E1D6EC /* PopupTransition.m in Sources */,
-				5F6B65081B63FA7200E1D6EC /* KYAlertViewController.m in Sources */,
+				5F6B651E1B669DE600E1D6EC /* UIImage+Color.m in Sources */,
 				5F6B64E61B63F7FF00E1D6EC /* AppDelegate.m in Sources */,
 				5F6B64E31B63F7FF00E1D6EC /* main.m in Sources */,
 			);
@@ -388,6 +384,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KYDopePopupDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -398,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KYDopePopupDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -456,6 +454,7 @@
 				5F6B65021B63F7FF00E1D6EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F6B65031B63F7FF00E1D6EC /* Build configuration list for PBXNativeTarget "KYDopePopupDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +463,7 @@
 				5F6B65051B63F7FF00E1D6EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
